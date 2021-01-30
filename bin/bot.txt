@@ -1,0 +1,16 @@
+name_bot: Test Bot
+
+
+# Why Is this File Important?
+# Because we need it to process the Bot's Information.
+# These are comments.
+# These are Stored And Ignored Throughout Processing.
+# Also, NEVER PUT COMMENTS ON THE FIRST LINE
+# Btw, This is Not a programming Language. It is a simple WriteUp Language for some ChatBot Processing. Thanks!
+# Also, comments are only Allowed 100 Characters Before STDOUT Cuts them to save memory.
+# (This File Prints Out)
+##
+Alright, Getting the File, bot.txt's Contents.
+Alright Got the File! Time to read.
+Alright, So your bot's Name Test Bot?
+##

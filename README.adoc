@@ -1,0 +1,79 @@
+
+= MyVirtualFriend
+
+ChatBot Framework Built in C++, C, And Python.
+
+== Features
+
+* Classic C Interface.
+* Low Memory Usage
+* Easy Access to Information
+* Open-Source
+* Binaries
+* Name Customizability
+
+=== Basic Information
+This C++ ChatBot Is Unlike no other, This chatBot Allows for simpler use when Writing Code for it.
+
+When you code with the Tools provided, You get--Very Nice things to say the least.
+
+* Easy Data Logging And Tracking
+* Task Creating
+* Customization
+
+Definitely something you should try.
+
+=== ChatBot Review
+This ChatBot Is good for publishing to other Devices.
+
+This ChatBot is Good for Portability And Creation.
+
+If you would like to fix your Code to fit the ChatBot's Standards, you can!
+
+Here's some c++ for you.
+
+[source,cpp]
+-------
+#pragma once
+
+//
+// Created by seymo on 1/30/2021.
+//
+
+#include "lib.h"
+
+
+/*
+ * ChatBot.Main
+ */
+int main() {
+	/*
+	 * Iterate Basic File Once
+	 */
+	GetFileContents("bot.txt");
+	// After Getting Bot Name From bot.txt, Allow Namefor to be Called With Stored Value.
+	out(namefor);
+
+	// Before Starting, We Must Ensure that the ChatBot Contains the ChatBotConfig Algorithm.
+	// We Can Implement a Configuration Reader By Starting the ConfigurationService.
+	createtask(ConfigurationService);
+
+	// Now that we've defined the Name for our ChatBot, We Must Start the ChatBot Service.
+	createtask(ChatBotService);
+
+	// After we've made that, In case the Bot has any specific Memory allocation problem which causes it to fail/flop,
+	// We Should start a Backend Service Called Message Handling Service.
+	createtask(MessageHandlingService);
+	return 0;
+}
+-------
+=== Requirements
+- chatbot.exe
+- C++11
+- lib.h
+- CMakeLists.txt
+- CMake
+- bot.txt
+- BotConfigurations.txt
+
+This Document also Comes In **HTML** and **PDF** Format.
